@@ -1,0 +1,18 @@
+import '../../../App.css'
+import Container from '../../common/Section/Container';
+import Heading from '../../common/Section/Heading.js'
+import Inner from './Inner'
+
+function Skills() {
+  return (
+    <>
+      <Container>
+        <Heading headingText="Skill"/>
+        <Inner/>
+      </Container>
+    </>
+    
+  );
+}
+
+export default Skills;
