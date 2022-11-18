@@ -1,15 +1,13 @@
+import listEducation from '../../../data/listEducation';
 import '../../../App.css'
+import Institution from './Institution';
+// import jobs from './Jobs/data.js'
 
+// loop list in grid
 function Inner() {
   return (
-    <div className='Inner'>
-        <h3 className='nameplateHeading'>Eli Jayson</h3>
-        <span className='address1'>3063 NW 9st Ave</span>
-        <span className='address2'>Coral Springs, FL 33065</span>
-        <span className='contact'>
-            <span className='phone'>386.451.3843</span>
-            <span className='email'>eligence@gmail.com</span>
-        </span>
+    <div className="Inner">
+      {listEducation.map(j => <Institution data={j}/>)}
     </div>
   );
 }

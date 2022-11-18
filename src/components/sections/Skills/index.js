@@ -1,6 +1,6 @@
 import '../../../App.css'
-import Container from '../../common/Section/Container';
-import Heading from '../../common/Section/Heading.js'
+import Container from '../../common/layout/Container';
+import Heading from '../../common/layout/Heading.js'
 import Inner from './Inner'
 
 function Skills() {

@@ -1,5 +1,5 @@
 import '../../../App.css'
-import Container from '../../common/Section/Container';
+import Container from '../../common/layout/Container';
 import NameplateHeading from './Heading.js'
 import NameplateInner from './Inner.js'
 /**
